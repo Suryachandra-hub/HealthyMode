@@ -1,0 +1,37 @@
+body {
+  background: #fdfdfb;
+  font-family: 'Segoe UI', sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  padding: 40px;
+  max-width: 600px;
+  margin: auto;
+  background: #fff9ec;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(255, 205, 90, 0.2);
+  text-align: center;
+}
+
+button {
+  margin: 10px;
+  padding: 15px 20px;
+  font-size: 16px;
+  background: #ffd700;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #e6be00;
+}
+
+#output {
+  margin-top: 20px;
+  font-weight: bold;
+}
